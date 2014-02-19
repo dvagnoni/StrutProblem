@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73EA9F2018B442C60025672A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EA9F1F18B442C60025672A /* UIKit.framework */; };
+		73EA9F2218B442C60025672A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EA9F2118B442C60025672A /* Foundation.framework */; };
+		73EA9F2418B442C60025672A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EA9F2318B442C60025672A /* CoreGraphics.framework */; };
+		73EA9F2A18B442C70025672A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73EA9F2818B442C70025672A /* InfoPlist.strings */; };
+		73EA9F2C18B442C70025672A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EA9F2B18B442C70025672A /* main.m */; };
+		73EA9F3018B442C70025672A /* StrutProblemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EA9F2F18B442C70025672A /* StrutProblemAppDelegate.m */; };
+		73EA9F3318B442C70025672A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73EA9F3118B442C70025672A /* MainStoryboard.storyboard */; };
+		73EA9F3618B442C70025672A /* StrutProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EA9F3518B442C70025672A /* StrutProblemViewController.m */; };
+		73EA9F3E18B442C70025672A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EA9F3D18B442C70025672A /* SenTestingKit.framework */; };
+		73EA9F3F18B442C70025672A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EA9F1F18B442C60025672A /* UIKit.framework */; };
+		73EA9F4018B442C70025672A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EA9F2118B442C60025672A /* Foundation.framework */; };
+		73EA9F4818B442C70025672A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73EA9F4618B442C70025672A /* InfoPlist.strings */; };
+		73EA9F4B18B442C70025672A /* StrutProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EA9F4A18B442C70025672A /* StrutProblemTests.m */; };
+		73EA9F5718B443A00025672A /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 73EA9F5418B4439F0025672A /* AppIcon.appiconset */; };
+		73EA9F5818B443A00025672A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73EA9F5518B443A00025672A /* Images.xcassets */; };
+		73EA9F5918B443A00025672A /* LaunchImage.launchimage in Resources */ = {isa = PBXBuildFile; fileRef = 73EA9F5618B443A00025672A /* LaunchImage.launchimage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73EA9F4118B442C70025672A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73EA9F1218B442C60025672A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73EA9F1A18B442C60025672A;
+			remoteInfo = StrutProblem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73EA9F1B18B442C60025672A /* StrutProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrutProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EA9F1F18B442C60025672A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73EA9F2118B442C60025672A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73EA9F2318B442C60025672A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73EA9F2718B442C60025672A /* StrutProblem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrutProblem-Info.plist"; sourceTree = "<group>"; };
+		73EA9F2918B442C70025672A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73EA9F2B18B442C70025672A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73EA9F2D18B442C70025672A /* StrutProblem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrutProblem-Prefix.pch"; sourceTree = "<group>"; };
+		73EA9F2E18B442C70025672A /* StrutProblemAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrutProblemAppDelegate.h; sourceTree = "<group>"; };
+		73EA9F2F18B442C70025672A /* StrutProblemAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrutProblemAppDelegate.m; sourceTree = "<group>"; };
+		73EA9F3218B442C70025672A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		73EA9F3418B442C70025672A /* StrutProblemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrutProblemViewController.h; sourceTree = "<group>"; };
+		73EA9F3518B442C70025672A /* StrutProblemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrutProblemViewController.m; sourceTree = "<group>"; };
+		73EA9F3C18B442C70025672A /* StrutProblemTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrutProblemTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73EA9F3D18B442C70025672A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		73EA9F4518B442C70025672A /* StrutProblemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrutProblemTests-Info.plist"; sourceTree = "<group>"; };
+		73EA9F4718B442C70025672A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73EA9F4918B442C70025672A /* StrutProblemTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrutProblemTests.h; sourceTree = "<group>"; };
+		73EA9F4A18B442C70025672A /* StrutProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrutProblemTests.m; sourceTree = "<group>"; };
+		73EA9F5418B4439F0025672A /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppIcon.appiconset; path = ../../../AppIcon.appiconset; sourceTree = "<group>"; };
+		73EA9F5518B443A00025672A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = file; name = Images.xcassets; path = ../../../Images.xcassets; sourceTree = "<group>"; };
+		73EA9F5618B443A00025672A /* LaunchImage.launchimage */ = {isa = PBXFileReference; lastKnownFileType = file; name = LaunchImage.launchimage; path = ../../../LaunchImage.launchimage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73EA9F1818B442C60025672A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EA9F2018B442C60025672A /* UIKit.framework in Frameworks */,
+				73EA9F2218B442C60025672A /* Foundation.framework in Frameworks */,
+				73EA9F2418B442C60025672A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EA9F3818B442C70025672A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EA9F3E18B442C70025672A /* SenTestingKit.framework in Frameworks */,
+				73EA9F3F18B442C70025672A /* UIKit.framework in Frameworks */,
+				73EA9F4018B442C70025672A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73EA9F1018B442C60025672A = {
+			isa = PBXGroup;
+			children = (
+				73EA9F2518B442C60025672A /* StrutProblem */,
+				73EA9F4318B442C70025672A /* StrutProblemTests */,
+				73EA9F1E18B442C60025672A /* Frameworks */,
+				73EA9F1C18B442C60025672A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73EA9F1C18B442C60025672A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73EA9F1B18B442C60025672A /* StrutProblem.app */,
+				73EA9F3C18B442C70025672A /* StrutProblemTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73EA9F1E18B442C60025672A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73EA9F1F18B442C60025672A /* UIKit.framework */,
+				73EA9F2118B442C60025672A /* Foundation.framework */,
+				73EA9F2318B442C60025672A /* CoreGraphics.framework */,
+				73EA9F3D18B442C70025672A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73EA9F2518B442C60025672A /* StrutProblem */ = {
+			isa = PBXGroup;
+			children = (
+				73EA9F2E18B442C70025672A /* StrutProblemAppDelegate.h */,
+				73EA9F2F18B442C70025672A /* StrutProblemAppDelegate.m */,
+				73EA9F3118B442C70025672A /* MainStoryboard.storyboard */,
+				73EA9F3418B442C70025672A /* StrutProblemViewController.h */,
+				73EA9F3518B442C70025672A /* StrutProblemViewController.m */,
+				73EA9F5418B4439F0025672A /* AppIcon.appiconset */,
+				73EA9F5518B443A00025672A /* Images.xcassets */,
+				73EA9F5618B443A00025672A /* LaunchImage.launchimage */,
+				73EA9F2618B442C60025672A /* Supporting Files */,
+			);
+			path = StrutProblem;
+			sourceTree = "<group>";
+		};
+		73EA9F2618B442C60025672A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73EA9F2718B442C60025672A /* StrutProblem-Info.plist */,
+				73EA9F2818B442C70025672A /* InfoPlist.strings */,
+				73EA9F2B18B442C70025672A /* main.m */,
+				73EA9F2D18B442C70025672A /* StrutProblem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73EA9F4318B442C70025672A /* StrutProblemTests */ = {
+			isa = PBXGroup;
+			children = (
+				73EA9F4918B442C70025672A /* StrutProblemTests.h */,
+				73EA9F4A18B442C70025672A /* StrutProblemTests.m */,
+				73EA9F4418B442C70025672A /* Supporting Files */,
+			);
+			path = StrutProblemTests;
+			sourceTree = "<group>";
+		};
+		73EA9F4418B442C70025672A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73EA9F4518B442C70025672A /* StrutProblemTests-Info.plist */,
+				73EA9F4618B442C70025672A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73EA9F1A18B442C60025672A /* StrutProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EA9F4E18B442C70025672A /* Build configuration list for PBXNativeTarget "StrutProblem" */;
+			buildPhases = (
+				73EA9F1718B442C60025672A /* Sources */,
+				73EA9F1818B442C60025672A /* Frameworks */,
+				73EA9F1918B442C60025672A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrutProblem;
+			productName = StrutProblem;
+			productReference = 73EA9F1B18B442C60025672A /* StrutProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73EA9F3B18B442C70025672A /* StrutProblemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EA9F5118B442C70025672A /* Build configuration list for PBXNativeTarget "StrutProblemTests" */;
+			buildPhases = (
+				73EA9F3718B442C70025672A /* Sources */,
+				73EA9F3818B442C70025672A /* Frameworks */,
+				73EA9F3918B442C70025672A /* Resources */,
+				73EA9F3A18B442C70025672A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73EA9F4218B442C70025672A /* PBXTargetDependency */,
+			);
+			name = StrutProblemTests;
+			productName = StrutProblemTests;
+			productReference = 73EA9F3C18B442C70025672A /* StrutProblemTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73EA9F1218B442C60025672A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = StrutProblem;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Daniel Vagnoni";
+			};
+			buildConfigurationList = 73EA9F1518B442C60025672A /* Build configuration list for PBXProject "StrutProblem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73EA9F1018B442C60025672A;
+			productRefGroup = 73EA9F1C18B442C60025672A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73EA9F1A18B442C60025672A /* StrutProblem */,
+				73EA9F3B18B442C70025672A /* StrutProblemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73EA9F1918B442C60025672A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EA9F2A18B442C70025672A /* InfoPlist.strings in Resources */,
+				73EA9F3318B442C70025672A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EA9F3918B442C70025672A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EA9F4818B442C70025672A /* InfoPlist.strings in Resources */,
+				73EA9F5718B443A00025672A /* AppIcon.appiconset in Resources */,
+				73EA9F5818B443A00025672A /* Images.xcassets in Resources */,
+				73EA9F5918B443A00025672A /* LaunchImage.launchimage in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73EA9F3A18B442C70025672A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73EA9F1718B442C60025672A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EA9F2C18B442C70025672A /* main.m in Sources */,
+				73EA9F3018B442C70025672A /* StrutProblemAppDelegate.m in Sources */,
+				73EA9F3618B442C70025672A /* StrutProblemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EA9F3718B442C70025672A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EA9F4B18B442C70025672A /* StrutProblemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73EA9F4218B442C70025672A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73EA9F1A18B442C60025672A /* StrutProblem */;
+			targetProxy = 73EA9F4118B442C70025672A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73EA9F2818B442C70025672A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73EA9F2918B442C70025672A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73EA9F3118B442C70025672A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73EA9F3218B442C70025672A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		73EA9F4618B442C70025672A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73EA9F4718B442C70025672A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73EA9F4C18B442C70025672A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73EA9F4D18B442C70025672A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73EA9F4F18B442C70025672A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrutProblem/StrutProblem-Prefix.pch";
+				INFOPLIST_FILE = "StrutProblem/StrutProblem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73EA9F5018B442C70025672A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrutProblem/StrutProblem-Prefix.pch";
+				INFOPLIST_FILE = "StrutProblem/StrutProblem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		73EA9F5218B442C70025672A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StrutProblem.app/StrutProblem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrutProblem/StrutProblem-Prefix.pch";
+				INFOPLIST_FILE = "StrutProblemTests/StrutProblemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		73EA9F5318B442C70025672A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StrutProblem.app/StrutProblem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrutProblem/StrutProblem-Prefix.pch";
+				INFOPLIST_FILE = "StrutProblemTests/StrutProblemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73EA9F1518B442C60025672A /* Build configuration list for PBXProject "StrutProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EA9F4C18B442C70025672A /* Debug */,
+				73EA9F4D18B442C70025672A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EA9F4E18B442C70025672A /* Build configuration list for PBXNativeTarget "StrutProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EA9F4F18B442C70025672A /* Debug */,
+				73EA9F5018B442C70025672A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		73EA9F5118B442C70025672A /* Build configuration list for PBXNativeTarget "StrutProblemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EA9F5218B442C70025672A /* Debug */,
+				73EA9F5318B442C70025672A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73EA9F1218B442C60025672A /* Project object */;
+}
